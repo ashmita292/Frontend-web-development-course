@@ -1,0 +1,16 @@
+#box {
+  width: 500px;
+  height: auto;
+}
+.box-text {
+  font-style: italic;
+  color: gray;
+}
+
+div#box > .simple-text {
+  color: teal;
+}
+div#box > p > span {
+  font-weight: bold;
+  color: black;
+}
